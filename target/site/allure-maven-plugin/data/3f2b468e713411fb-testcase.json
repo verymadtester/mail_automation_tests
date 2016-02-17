@@ -1,0 +1,47 @@
+{
+  "uid" : "3f2b468e713411fb",
+  "name" : "When user send letter to \"sergeishatilov@rambler.ru\"",
+  "title" : "When user send letter to \"sergeishatilov@rambler.ru\"",
+  "time" : {
+    "start" : 1452771219040,
+    "stop" : 1452771219046,
+    "duration" : 6
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "NoSuchElementException: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(@title, 'Написать письмо')]\"}\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'EPRUPETW0992', ip: '10.16.11.89', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: d955e6e2-0c79-43d8-80fe-9c46d5d3d8a4\n*** Element info: {Using=xpath, value=//button[contains(@title, 'Написать письмо')]}",
+    "stackTrace" : "org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(@title, 'Написать письмо')]\"}\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'EPRUPETW0992', ip: '10.16.11.89', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: d955e6e2-0c79-43d8-80fe-9c46d5d3d8a4\n*** Element info: {Using=xpath, value=//button[contains(@title, 'Написать письмо')]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy16.isEnabled(Unknown Source)\n\tat Controllers.BaseElement.click(BaseElement.java:42)\n\tat Pages.WriteLetterPage.pressWriteLetter(WriteLetterPage.java:47)\n\tat Steps.WriteLetterStepdefs.userSendLetterTo(WriteLetterStepdefs.java:50)\n\tat ✽.When user send letter to \"sergeishatilov@rambler.ru\"(Write_letter.feature:6)\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(@title, 'Написать письмо')]\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'EPRUPETW0992', ip: '10.16.11.89', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'\nDriver info: driver.version: unknown\n\tat <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SERGEI~1/AppData/Local/Temp/anonymous5639685773845529364webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)\n\tat <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/SERGEI~1/AppData/Local/Temp/anonymous5639685773845529364webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)\n\tat <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SERGEI~1/AppData/Local/Temp/anonymous5639685773845529364webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)\n\tat <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/SERGEI~1/AppData/Local/Temp/anonymous5639685773845529364webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)\n\tat <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/SERGEI~1/AppData/Local/Temp/anonymous5639685773845529364webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "73764a6f406ae5d6",
+    "name" : "UnknownTestSuite",
+    "title" : "Unknown test suite"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "EPRUPETW0992"
+  }, {
+    "name" : "thread",
+    "value" : "13400@EPRUPETW0992.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : null
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,438 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14290790287,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MoveLetterStepdefs.initPage()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2328211,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WriteLetterStepdefs.initPage()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Move letter from SentLettersPage to TrashLettersPage",
+        "description": "",
+        "id": "move-letter;move-letter-from-sentletterspage-to-trashletterspage;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12358089578,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login to url, with \"sergeishatilov\", and \"epamsystems\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sergeishatilov",
+                  "offset": 25
+                },
+                {
+                  "val": "epamsystems",
+                  "offset": 47
+                }
+              ],
+              "location": "MoveLetterStepdefs.userLoginToUrlWithAnd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1257646023,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user move first sent letter to Trash",
+            "match": {
+              "location": "MoveLetterStepdefs.userMoveFirstSentLetterToTrash()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1739097519,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user open Trash Page and check letter have been moved",
+            "match": {
+              "location": "MoveLetterStepdefs.userOpenTrashPageAndCheckLetterHaveBeenMoved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3438294408,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user logout",
+            "match": {
+              "location": "MoveLetterStepdefs.userLogout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@move_letter"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 30791,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MoveLetterStepdefs.initPage()"
+            }
+          },
+          {
+            "result": {
+              "duration": 21349,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WriteLetterStepdefs.initPage()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Move letter from SentLettersPage to TrashLettersPage",
+        "description": "",
+        "id": "move-letter;move-letter-from-sentletterspage-to-trashletterspage;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5636600410,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login to url, with \"sergei.shatilov\", and \"epamsystems\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sergei.shatilov",
+                  "offset": 25
+                },
+                {
+                  "val": "epamsystems",
+                  "offset": 48
+                }
+              ],
+              "location": "MoveLetterStepdefs.userLoginToUrlWithAnd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1010002151,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user move first sent letter to Trash",
+            "match": {
+              "location": "MoveLetterStepdefs.userMoveFirstSentLetterToTrash()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1715895878,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user open Trash Page and check letter have been moved",
+            "match": {
+              "location": "MoveLetterStepdefs.userOpenTrashPageAndCheckLetterHaveBeenMoved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2445074998,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user logout",
+            "match": {
+              "location": "MoveLetterStepdefs.userLogout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@move_letter"
+          }
+        ]
+      }
+    ],
+    "name": "Move letter",
+    "description": "",
+    "id": "move-letter",
+    "keyword": "Feature",
+    "uri": "Move_letter.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@move_letter"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 38591,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MoveLetterStepdefs.initPage()"
+            }
+          },
+          {
+            "result": {
+              "duration": 41876,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WriteLetterStepdefs.initPage()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Write letter in rambler mail",
+        "description": "",
+        "id": "write-letter;write-letter-in-rambler-mail;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4465566620,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login to url, with \"sergeishatilov\", and \"epamsystems\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sergeishatilov",
+                  "offset": 25
+                },
+                {
+                  "val": "epamsystems",
+                  "offset": 47
+                }
+              ],
+              "location": "MoveLetterStepdefs.userLoginToUrlWithAnd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4834020041,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user send letter to \"sergeishatilov@rambler.ru\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sergeishatilov@rambler.ru",
+                  "offset": 21
+                }
+              ],
+              "location": "WriteLetterStepdefs.userSendLetterTo(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1867845811,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "letter should have been sent",
+            "match": {
+              "location": "WriteLetterStepdefs.letter_should_have_been_sent()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2266757288,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user logout",
+            "match": {
+              "location": "MoveLetterStepdefs.userLogout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@write_letter"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 28327,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MoveLetterStepdefs.initPage()"
+            }
+          },
+          {
+            "result": {
+              "duration": 20117,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WriteLetterStepdefs.initPage()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Write letter in rambler mail",
+        "description": "",
+        "id": "write-letter;write-letter-in-rambler-mail;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4728259496,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login to url, with \"sergei.shatilov\", and \"epamsystems\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sergei.shatilov",
+                  "offset": 25
+                },
+                {
+                  "val": "epamsystems",
+                  "offset": 48
+                }
+              ],
+              "location": "MoveLetterStepdefs.userLoginToUrlWithAnd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3724789964,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user send letter to \"sergeishatilov@rambler.ru\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sergeishatilov@rambler.ru",
+                  "offset": 21
+                }
+              ],
+              "location": "WriteLetterStepdefs.userSendLetterTo(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1307794723,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "letter should have been sent",
+            "match": {
+              "location": "WriteLetterStepdefs.letter_should_have_been_sent()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2815494528,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user logout",
+            "match": {
+              "location": "MoveLetterStepdefs.userLogout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@write_letter"
+          }
+        ]
+      }
+    ],
+    "name": "Write letter",
+    "description": "",
+    "id": "write-letter",
+    "keyword": "Feature",
+    "uri": "Write_letter.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@write_letter"
+      }
+    ]
+  }
+]

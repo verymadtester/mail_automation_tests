@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="0" stop="1452771438944" version="1.4.19" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <test-cases>
+        <test-case start="1452771431560" stop="1452771431560" status="passed">
+            <name>Given user login to url, with "sergei.shatilov", and "epamsystems"</name>
+            <title>Given user login to url, with "sergei.shatilov", and "epamsystems"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPRUPETW0992"/>
+                <label name="thread" value="3752@EPRUPETW0992.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1452771435169" stop="1452771435169" status="passed">
+            <name>When user send letter to "sergeishatilov@rambler.ru"</name>
+            <title>When user send letter to "sergeishatilov@rambler.ru"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPRUPETW0992"/>
+                <label name="thread" value="3752@EPRUPETW0992.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1452771436752" stop="1452771436752" status="passed">
+            <name>Then letter should have been sent</name>
+            <title>Then letter should have been sent</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPRUPETW0992"/>
+                <label name="thread" value="3752@EPRUPETW0992.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1452771438943" stop="1452771438943" status="passed">
+            <name>And user logout</name>
+            <title>And user logout</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPRUPETW0992"/>
+                <label name="thread" value="3752@EPRUPETW0992.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

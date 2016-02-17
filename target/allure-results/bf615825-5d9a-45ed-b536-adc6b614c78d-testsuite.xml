@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1452771414678" stop="1452771414725" version="1.4.19" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Move letter from SentLettersPage to TrashLettersPage | sergei.shatilov | epamsystems |</name>
+    <title>Move letter from SentLettersPage to TrashLettersPage | sergei.shatilov | epamsystems |</title>
+    <test-cases>
+        <test-case start="1452771414679" stop="1452771414679" status="passed">
+            <name>Given user login to url, with "sergei.shatilov", and "epamsystems"</name>
+            <title>Given user login to url, with "sergei.shatilov", and "epamsystems"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPRUPETW0992"/>
+                <label name="thread" value="3752@EPRUPETW0992.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1452771414696" stop="1452771414716" status="broken">
+            <name>When user move first sent letter to Trash</name>
+            <title>When user move first sent letter to Trash</title>
+            <failure>
+                <message>NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href, '#/folder/SentBox/')]"}
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'EPRUPETW0992', ip: '10.16.11.89', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 57d645df-0bd4-42fa-ae59-ba45ec32b031
+*** Element info: {Using=xpath, value=//a[contains(@href, '#/folder/SentBox/')]}</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href, '#/folder/SentBox/')]"}
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'EPRUPETW0992', ip: '10.16.11.89', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 57d645df-0bd4-42fa-ae59-ba45ec32b031
+*** Element info: {Using=xpath, value=//a[contains(@href, '#/folder/SentBox/')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.isEnabled(Unknown Source)
+	at Controllers.BaseElement.click(BaseElement.java:42)
+	at Pages.SentLettersPage.openSentMails(SentLettersPage.java:51)
+	at Steps.MoveLetterStepdefs.userMoveFirstSentLetterToTrash(MoveLetterStepdefs.java:49)
+	at ✽.When user move first sent letter to Trash(Move_letter.feature:6)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href, '#/folder/SentBox/')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'EPRUPETW0992', ip: '10.16.11.89', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SERGEI~1/AppData/Local/Temp/anonymous4695724215834397679webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/SERGEI~1/AppData/Local/Temp/anonymous4695724215834397679webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SERGEI~1/AppData/Local/Temp/anonymous4695724215834397679webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/SERGEI~1/AppData/Local/Temp/anonymous4695724215834397679webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/SERGEI~1/AppData/Local/Temp/anonymous4695724215834397679webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPRUPETW0992"/>
+                <label name="thread" value="3752@EPRUPETW0992.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1452771414721" stop="1452771414722" status="pending">
+            <name>Then user open Trash Page and check letter have been moved</name>
+            <title>Then user open Trash Page and check letter have been moved</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPRUPETW0992"/>
+                <label name="thread" value="3752@EPRUPETW0992.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1452771414724" stop="1452771414724" status="pending">
+            <name>And user logout</name>
+            <title>And user logout</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPRUPETW0992"/>
+                <label name="thread" value="3752@EPRUPETW0992.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Move letter from SentLettersPage to TrashLettersPage | sergei.shatilov | epamsystems |"/>
+        <label name="feature" value="Move letter"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

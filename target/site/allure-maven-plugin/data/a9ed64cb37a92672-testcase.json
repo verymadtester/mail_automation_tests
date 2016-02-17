@@ -1,0 +1,44 @@
+{
+  "uid" : "a9ed64cb37a92672",
+  "name" : "Given user login to url, with \"sergeishatilov\", and \"epamsystems\"",
+  "title" : "Given user login to url, with \"sergeishatilov\", and \"epamsystems\"",
+  "time" : {
+    "start" : 1452771419504,
+    "stop" : 1452771419504,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "73764a6f406ae5d6",
+    "name" : "UnknownTestSuite",
+    "title" : "Unknown test suite"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "EPRUPETW0992"
+  }, {
+    "name" : "thread",
+    "value" : "3752@EPRUPETW0992.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : null
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

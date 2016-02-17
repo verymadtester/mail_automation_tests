@@ -1,0 +1,53 @@
+{
+  "uid" : "ac0b79fc47dc7fe",
+  "name" : "And user logout",
+  "title" : "And user logout",
+  "time" : {
+    "start" : 1452771412082,
+    "stop" : 1452771412082,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "79dda6b2bea39a",
+    "name" : "Move letter from SentLettersPage to TrashLettersPage | sergeishatilov | epamsystems |",
+    "title" : "Move letter from SentLettersPage to TrashLettersPage | sergeishatilov | epamsystems |"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "EPRUPETW0992"
+  }, {
+    "name" : "thread",
+    "value" : "3752@EPRUPETW0992.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Move letter from SentLettersPage to TrashLettersPage | sergeishatilov | epamsystems |"
+  }, {
+    "name" : "suite-title",
+    "value" : "Move letter from SentLettersPage to TrashLettersPage | sergeishatilov | epamsystems |"
+  }, {
+    "name" : "story",
+    "value" : "Move letter from SentLettersPage to TrashLettersPage | sergeishatilov | epamsystems |"
+  }, {
+    "name" : "feature",
+    "value" : "Move letter"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

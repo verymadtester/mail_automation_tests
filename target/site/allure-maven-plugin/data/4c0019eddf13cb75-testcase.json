@@ -1,0 +1,53 @@
+{
+  "uid" : "4c0019eddf13cb75",
+  "name" : "Given user login to url, with \"sergei.shatilov\", and \"epamsystems\"",
+  "title" : "Given user login to url, with \"sergei.shatilov\", and \"epamsystems\"",
+  "time" : {
+    "start" : 1452771213308,
+    "stop" : 1452771213309,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c48e804ef426cc1",
+    "name" : "Move letter from SentLettersPage to TrashLettersPage | sergei.shatilov | epamsystems |",
+    "title" : "Move letter from SentLettersPage to TrashLettersPage | sergei.shatilov | epamsystems |"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "EPRUPETW0992"
+  }, {
+    "name" : "thread",
+    "value" : "13400@EPRUPETW0992.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Move letter from SentLettersPage to TrashLettersPage | sergei.shatilov | epamsystems |"
+  }, {
+    "name" : "suite-title",
+    "value" : "Move letter from SentLettersPage to TrashLettersPage | sergei.shatilov | epamsystems |"
+  }, {
+    "name" : "story",
+    "value" : "Move letter from SentLettersPage to TrashLettersPage | sergei.shatilov | epamsystems |"
+  }, {
+    "name" : "feature",
+    "value" : "Move letter"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

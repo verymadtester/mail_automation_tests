@@ -1,0 +1,192 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Move letter from SentLettersPage to TrashLettersPage",
+        "description": "",
+        "id": "move-letter;move-letter-from-sentletterspage-to-trashletterspage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user login to \u0027url\u0027, with \u0027username\u0027, and \u0027password\u0027",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user open \u0027SentLettersPage\u0027 , move first letter to \u0027TrashLettersPage\u0027",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user open \u0027TrashLettersPage\u0027 and check letter",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user logout",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Move letter",
+    "description": "",
+    "id": "move-letter",
+    "keyword": "Feature",
+    "uri": "Move_letter.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@move_letter"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Write letter in rambler mail",
+        "description": "",
+        "id": "write-letter;write-letter-in-rambler-mail;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user login to \u0027url\u0027, with \u0027sergeishatilov\u0027, and \u0027epamsystems\u0027",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user press \u0027writeButton\u0027 button, fill \u0027getter\u0027, fill \u0027subject\u0027, and \u0027letterBody\u0027, press \u0027pressSend\u0027 button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "letter should have been sent",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user logout",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@write_letter"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Write letter in rambler mail",
+        "description": "",
+        "id": "write-letter;write-letter-in-rambler-mail;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user login to \u0027url\u0027, with \u0027sergei.shatilov\u0027, and \u0027epamsystems!\u0027",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user press \u0027writeButton\u0027 button, fill \u0027getter\u0027, fill \u0027subject\u0027, and \u0027letterBody\u0027, press \u0027pressSend\u0027 button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "letter should have been sent",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user logout",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@write_letter"
+          }
+        ]
+      }
+    ],
+    "name": "Write letter",
+    "description": "",
+    "id": "write-letter",
+    "keyword": "Feature",
+    "uri": "Write_letter.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@write_letter"
+      }
+    ]
+  }
+]

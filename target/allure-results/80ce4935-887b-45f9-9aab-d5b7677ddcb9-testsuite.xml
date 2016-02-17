@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1452771403577" stop="1452771412086" version="1.4.19" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Move letter from SentLettersPage to TrashLettersPage | sergeishatilov | epamsystems |</name>
+    <title>Move letter from SentLettersPage to TrashLettersPage | sergeishatilov | epamsystems |</title>
+    <test-cases>
+        <test-case start="1452771403592" stop="1452771403595" status="passed">
+            <name>Given user login to url, with "sergeishatilov", and "epamsystems"</name>
+            <title>Given user login to url, with "sergeishatilov", and "epamsystems"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPRUPETW0992"/>
+                <label name="thread" value="3752@EPRUPETW0992.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1452771404873" stop="1452771404873" status="passed">
+            <name>When user move first sent letter to Trash</name>
+            <title>When user move first sent letter to Trash</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPRUPETW0992"/>
+                <label name="thread" value="3752@EPRUPETW0992.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1452771409569" stop="1452771409569" status="passed">
+            <name>Then user open Trash Page and check letter have been moved</name>
+            <title>Then user open Trash Page and check letter have been moved</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPRUPETW0992"/>
+                <label name="thread" value="3752@EPRUPETW0992.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1452771412082" stop="1452771412082" status="passed">
+            <name>And user logout</name>
+            <title>And user logout</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPRUPETW0992"/>
+                <label name="thread" value="3752@EPRUPETW0992.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Move letter from SentLettersPage to TrashLettersPage | sergeishatilov | epamsystems |"/>
+        <label name="feature" value="Move letter"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

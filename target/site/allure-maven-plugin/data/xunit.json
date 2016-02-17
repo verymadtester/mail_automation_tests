@@ -1,0 +1,417 @@
+{
+  "time" : {
+    "start" : 1452771210558,
+    "stop" : 1452771438943,
+    "duration" : 228385
+  },
+  "testSuites" : [ {
+    "uid" : "73764a6f406ae5d6",
+    "name" : "UnknownTestSuite",
+    "title" : "Unknown test suite",
+    "time" : {
+      "start" : 1452771216288,
+      "stop" : 1452771438943,
+      "duration" : 222655
+    },
+    "statistic" : {
+      "total" : 16,
+      "passed" : 10,
+      "pending" : 4,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 2
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "a9ed64cb37a92672",
+      "name" : "Given user login to url, with \"sergeishatilov\", and \"epamsystems\"",
+      "title" : "Given user login to url, with \"sergeishatilov\", and \"epamsystems\"",
+      "time" : {
+        "start" : 1452771419504,
+        "stop" : 1452771419504,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "7db16249f668cce7",
+      "name" : "When user send letter to \"sergeishatilov@rambler.ru\"",
+      "title" : "When user send letter to \"sergeishatilov@rambler.ru\"",
+      "time" : {
+        "start" : 1452771423609,
+        "stop" : 1452771423609,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d1b4c5c7c0e0c7bb",
+      "name" : "Then letter should have been sent",
+      "title" : "Then letter should have been sent",
+      "time" : {
+        "start" : 1452771424919,
+        "stop" : 1452771424919,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "4ec3234590dd4a92",
+      "name" : "And user logout",
+      "title" : "And user logout",
+      "time" : {
+        "start" : 1452771426876,
+        "stop" : 1452771426876,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "4589b0e00792385",
+      "name" : "Given user login to url, with \"sergei.shatilov\", and \"epamsystems\"",
+      "title" : "Given user login to url, with \"sergei.shatilov\", and \"epamsystems\"",
+      "time" : {
+        "start" : 1452771431560,
+        "stop" : 1452771431560,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "ca26bab4cbd74b99",
+      "name" : "When user send letter to \"sergeishatilov@rambler.ru\"",
+      "title" : "When user send letter to \"sergeishatilov@rambler.ru\"",
+      "time" : {
+        "start" : 1452771435169,
+        "stop" : 1452771435169,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "fb9e8d3edcbed224",
+      "name" : "Then letter should have been sent",
+      "title" : "Then letter should have been sent",
+      "time" : {
+        "start" : 1452771436752,
+        "stop" : 1452771436752,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "21452cd80402b2a0",
+      "name" : "And user logout",
+      "title" : "And user logout",
+      "time" : {
+        "start" : 1452771438943,
+        "stop" : 1452771438943,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "81da8d8dd1c89f24",
+      "name" : "Given user login to url, with \"sergei.shatilov\", and \"epamsystems\"",
+      "title" : "Given user login to url, with \"sergei.shatilov\", and \"epamsystems\"",
+      "time" : {
+        "start" : 1452771219028,
+        "stop" : 1452771219028,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "3f2b468e713411fb",
+      "name" : "When user send letter to \"sergeishatilov@rambler.ru\"",
+      "title" : "When user send letter to \"sergeishatilov@rambler.ru\"",
+      "time" : {
+        "start" : 1452771219040,
+        "stop" : 1452771219046,
+        "duration" : 6
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "c5ed50463c650e0c",
+      "name" : "Then letter should have been sent",
+      "title" : "Then letter should have been sent",
+      "time" : {
+        "start" : 1452771219054,
+        "stop" : 1452771219054,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    }, {
+      "uid" : "3bc9d6ca058d1f9f",
+      "name" : "And user logout",
+      "title" : "And user logout",
+      "time" : {
+        "start" : 1452771219055,
+        "stop" : 1452771219055,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    }, {
+      "uid" : "b2a9803ca1c5cb05",
+      "name" : "Given user login to url, with \"sergeishatilov\", and \"epamsystems\"",
+      "title" : "Given user login to url, with \"sergeishatilov\", and \"epamsystems\"",
+      "time" : {
+        "start" : 1452771216288,
+        "stop" : 1452771216288,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "cb565f5449d96c21",
+      "name" : "When user send letter to \"sergeishatilov@rambler.ru\"",
+      "title" : "When user send letter to \"sergeishatilov@rambler.ru\"",
+      "time" : {
+        "start" : 1452771216303,
+        "stop" : 1452771216306,
+        "duration" : 3
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "156ef33a4325e6e6",
+      "name" : "Then letter should have been sent",
+      "title" : "Then letter should have been sent",
+      "time" : {
+        "start" : 1452771216310,
+        "stop" : 1452771216310,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    }, {
+      "uid" : "c4de259878f08012",
+      "name" : "And user logout",
+      "title" : "And user logout",
+      "time" : {
+        "start" : 1452771216310,
+        "stop" : 1452771216310,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    } ]
+  }, {
+    "uid" : "79dda6b2bea39a",
+    "name" : "Move letter from SentLettersPage to TrashLettersPage | sergeishatilov | epamsystems |",
+    "title" : "Move letter from SentLettersPage to TrashLettersPage | sergeishatilov | epamsystems |",
+    "time" : {
+      "start" : 1452771210558,
+      "stop" : 1452771412082,
+      "duration" : 201524
+    },
+    "statistic" : {
+      "total" : 8,
+      "passed" : 5,
+      "pending" : 2,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "6ce578f581d5dea4",
+      "name" : "Given user login to url, with \"sergeishatilov\", and \"epamsystems\"",
+      "title" : "Given user login to url, with \"sergeishatilov\", and \"epamsystems\"",
+      "time" : {
+        "start" : 1452771403592,
+        "stop" : 1452771403595,
+        "duration" : 3
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "ede0a0e4f11649d5",
+      "name" : "When user move first sent letter to Trash",
+      "title" : "When user move first sent letter to Trash",
+      "time" : {
+        "start" : 1452771404873,
+        "stop" : 1452771404873,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d1809eb7ea62a8d7",
+      "name" : "Then user open Trash Page and check letter have been moved",
+      "title" : "Then user open Trash Page and check letter have been moved",
+      "time" : {
+        "start" : 1452771409569,
+        "stop" : 1452771409569,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "ac0b79fc47dc7fe",
+      "name" : "And user logout",
+      "title" : "And user logout",
+      "time" : {
+        "start" : 1452771412082,
+        "stop" : 1452771412082,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e821282b8e3e99e4",
+      "name" : "Given user login to url, with \"sergeishatilov\", and \"epamsystems\"",
+      "title" : "Given user login to url, with \"sergeishatilov\", and \"epamsystems\"",
+      "time" : {
+        "start" : 1452771210558,
+        "stop" : 1452771210560,
+        "duration" : 2
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "ff9073d73f3b20ca",
+      "name" : "When user move first sent letter to Trash",
+      "title" : "When user move first sent letter to Trash",
+      "time" : {
+        "start" : 1452771210676,
+        "stop" : 1452771210692,
+        "duration" : 16
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "59358f7140a1b037",
+      "name" : "Then user open Trash Page and check letter have been moved",
+      "title" : "Then user open Trash Page and check letter have been moved",
+      "time" : {
+        "start" : 1452771210697,
+        "stop" : 1452771210698,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    }, {
+      "uid" : "50cb7159b58be475",
+      "name" : "And user logout",
+      "title" : "And user logout",
+      "time" : {
+        "start" : 1452771210700,
+        "stop" : 1452771210700,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    } ]
+  }, {
+    "uid" : "c48e804ef426cc1",
+    "name" : "Move letter from SentLettersPage to TrashLettersPage | sergei.shatilov | epamsystems |",
+    "title" : "Move letter from SentLettersPage to TrashLettersPage | sergei.shatilov | epamsystems |",
+    "time" : {
+      "start" : 1452771213308,
+      "stop" : 1452771414724,
+      "duration" : 201416
+    },
+    "statistic" : {
+      "total" : 8,
+      "passed" : 2,
+      "pending" : 4,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 2
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "9088324567c9ccc3",
+      "name" : "Given user login to url, with \"sergei.shatilov\", and \"epamsystems\"",
+      "title" : "Given user login to url, with \"sergei.shatilov\", and \"epamsystems\"",
+      "time" : {
+        "start" : 1452771414679,
+        "stop" : 1452771414679,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b43d52139e27a67f",
+      "name" : "When user move first sent letter to Trash",
+      "title" : "When user move first sent letter to Trash",
+      "time" : {
+        "start" : 1452771414696,
+        "stop" : 1452771414716,
+        "duration" : 20
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "132099c02dd9d26c",
+      "name" : "Then user open Trash Page and check letter have been moved",
+      "title" : "Then user open Trash Page and check letter have been moved",
+      "time" : {
+        "start" : 1452771414721,
+        "stop" : 1452771414722,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    }, {
+      "uid" : "b770ed05d8465a34",
+      "name" : "And user logout",
+      "title" : "And user logout",
+      "time" : {
+        "start" : 1452771414724,
+        "stop" : 1452771414724,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    }, {
+      "uid" : "4c0019eddf13cb75",
+      "name" : "Given user login to url, with \"sergei.shatilov\", and \"epamsystems\"",
+      "title" : "Given user login to url, with \"sergei.shatilov\", and \"epamsystems\"",
+      "time" : {
+        "start" : 1452771213308,
+        "stop" : 1452771213309,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "8e7c3c2a900c759",
+      "name" : "When user move first sent letter to Trash",
+      "title" : "When user move first sent letter to Trash",
+      "time" : {
+        "start" : 1452771213330,
+        "stop" : 1452771213334,
+        "duration" : 4
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "a9c45650f70718d6",
+      "name" : "Then user open Trash Page and check letter have been moved",
+      "title" : "Then user open Trash Page and check letter have been moved",
+      "time" : {
+        "start" : 1452771213342,
+        "stop" : 1452771213342,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    }, {
+      "uid" : "ba02d2425d3cea9f",
+      "name" : "And user logout",
+      "title" : "And user logout",
+      "time" : {
+        "start" : 1452771213343,
+        "stop" : 1452771213343,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    } ]
+  } ]
+}
